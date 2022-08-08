@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.img1{
+    position: relative;
+    left: 2%;
+    width: 43%;
+}
+.img2{
+    position: relative;
+    left: 2%;
+    width: 43%;
+}

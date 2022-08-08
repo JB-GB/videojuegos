@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="shortcut icon" href="../IMG/dricon.ico" type="image/x-icon">
+        <!--Titulo de la pestaña-->
+        <title>Videojuegos</title>
+    </head>
+
+    <nav>
+        <div class="tituloEnPag">
+            <h1 id="indexTitle">DIRT RALLY 2.0</h1>
+        </div>
+    
+        <!--menu (instrucciones )-->
+        <div class="menu">
+            <ul>
+                <li><a href="Index.html">Index</a></li> <!--Ir a Index.html-->
+                <li><a href="About.html">About</a></li> <!--Ir a About.html-->
+                <li><a href="Gallery.html">Gallery</a></li> <!--Ir a Gallery.html-->
+                <li><a href="Contact.html">Contact</a></li> <!--Ir a Contact.html-->
+            </ul>
+        </div>
+    </nav>
+
+    <!--Contenido-->
+    <body>
+        <!--Titulo de la pagina-->
+        <h4>Contact</h4>
+
+        <!--Formularios-->
+        <form>
+            <div class="formulario">
+                <!--Parte de primer nombre-->
+                <div class="">
+                    <label for="urName">First name:</label><br>
+                    <input required type="text" id="userName" placeholder="Put your name" name="pNombre"><br>
+                </div>
+                
+
+                <!--Parte de apellido-->
+                <div>
+                    <label for="ur2Name">Last name:</label><br>
+                    <input required type="text" id="user2Name" placeholder="Put your surname" name="Ape"><br>
+                </div>
+
+                <!--Numeros-->
+                <div class="">
+                    <label for="urPhone">Phone number:</label>
+                    <input required type="number" placeholder="1234658790" name="urPhone" id="userPhone" maxlength="10">
+                </div>
+                
+                <!--Correo electronico-->
+                <div>
+                    <label for="urMail">Email:</label>
+                    <input required type="email" id="urMail" placeholder="example@domain.ex" name="userMail">
+                </div>
+
+                <!--Cuadro de texto-->
+                <div>
+                    <label for="whatHappen">Message:</label>
+                    <textarea required placeholder="Hallo" name="" id="whatHappen" cols="28" rows="10"></textarea>
+                </div>
+                
+                <!--Boton-->
+                <div class="request">
+                    <input type="submit" value="Send mail">
+                </div>
+
+            </div>
+            
+        </form>
+
+    </body>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="pf1">
+            © This webpage was created by Jorge Augusto 
+            Becerra Cifuentes on visual studio code program
+        </p>
+    </footer>
+</html>

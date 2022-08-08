@@ -1,0 +1,73 @@
+/* Las siguientes lineas son parte del titulo en pagina*/
+#indexTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Las siguientes lineas son parte del menu */
+ul{
+    list-style-type: none;
+    background-color:rgb(78, 103, 216);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+ul > li{
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav a:hover{
+    color: black;
+}
+
+/* Las siguientes lineas afectan al body*/
+body video{
+    background-color:blanchedalmond;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+body audio{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+}
+
+
+/* Las siguientes lineas son del Footer*/
+    /*Modificacion de p*/
+p{
+    color: aliceblue;
+    background-color:lightslategray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.pf2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color:royalblue;
+    background-color: bisque;
+    text-align: right;
+}
+
+#pf3{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color:tan;
+    background-color: coral;
+    text-align: left;
+}

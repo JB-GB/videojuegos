@@ -1,0 +1,4 @@
+.parimg{
+    display: flex;
+    flex-direction: row;
+}
